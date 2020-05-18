@@ -24,6 +24,9 @@ A: First, the GameServices creates a base URL.
 A: The fetch takes an object as the second argument. This tells the fetch which method to use
    for manipulate the data, it turns the json payload into a string and lets the database
    know to treat the data as json (via the headers property).
-   
+
 7. Which of the games API routes does the front-end application consume (i.e. make requests to)?
+A: The front end requests the data from the base URL which is /api/games/.
+
 8. What are we using the [MongoDB Driver](http://mongodb.github.io/node-mongodb-native/) for?
+A: To send data to and from the MongoDB database.
